@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+header ul li {
+    font-size: large;
+    font-weight: bold;
+
+    &:hover {
+        color: rgb(87, 87, 233);
+        cursor: pointer;
+    }
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+        color: red;
+        transition: 0.3s;
+    }
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.hover-img {
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+    &:hover {
+        transform: perspective(900px) translateZ(50px);
+        filter: brightness(75%);
+    }
+}
+.lower{
+    border-bottom: 4px solid red;
+}
+.green2{
+        font-weight: bold;
+
+    &:hover {
+        color: green;
+        cursor: pointer;
+    }
+}
+.bg-danger2{
+    background-color: rgb(239, 81, 36) !important;
+}
+.back{
+    background-color: #7a7a7a;
+}
+.hover:hover{
+    background-color: #5b5959;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+    &:hover {
+        transform: perspective(900px) translateZ(50px);
+        filter: brightness(75%);
+    }
+}
+.swiper {
+  width: 100%;
+  img{
+    height: 400px;
+  }
+}
+
+.swiper{
+    .swiper-slide{
+        position: relative;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            display: block;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0);
+            transition: background-color 0.3s ease;
+
+        }
+        &:hover::after{
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+    }
+
+}
+
+.foot{
+    background-color: #000851;
+    .ss{
+        background-color: white;
+    }
+}
+
+ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
