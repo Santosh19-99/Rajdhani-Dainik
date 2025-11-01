@@ -108,11 +108,17 @@ h2:hover {
 .foot {
   background-color: #000851;
 }
-.foot .ss {
+.foot .cc {
   background-color: white;
 }
 
 ul li:hover {
   color: blue;
   cursor: pointer;
+}
+
+.ss {
+  height: 275px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
